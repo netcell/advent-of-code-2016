@@ -24,7 +24,7 @@ function steps(input) {
 
   var instructions = input.split(', ');
   // take the string input, split each one as an instruction'
-  // L41, R52, L2, R2 -> ['L1', 'L2']
+  // L1, L2 -> ['L1', 'L2']
   var currPos = [0, 0];
   var dir;
 
